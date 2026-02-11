@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 path_datasets_raw = "./datasets_raw/"
-path_datasets_processed = "./datasets/"
+path_datasets_processed = "datasets/"
 
 # Ensure the processed datasets directory exists
 os.makedirs(path_datasets_processed, exist_ok=True)
