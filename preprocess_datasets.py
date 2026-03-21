@@ -21,7 +21,6 @@ for filename in os.listdir(path_datasets_raw):
         # Drop the temporary 'rolling_mean_14' column
         df.drop(columns=['rolling_mean_14'], inplace=True)
         
-        # Remove rows with ' ' in any column
         df = df[~df.apply(lambda x: x.str.contains(' ').any(), axis=1)]
         
         # Save the processed file
