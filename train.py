@@ -12,7 +12,7 @@ data = pd.read_csv('datasets/AMD_raw.csv')
 
 # Preprocess data
 def preprocess_data(data):
-    # Convert datetime to pandas datetime
+    # Convert datetime to pandas datetime.
     data['datetime'] = pd.to_datetime(data['datetime'])
     
     # Select features and target
