@@ -7,7 +7,7 @@ from keras.layers import Dense, LSTM, Dropout
 import tensorflow as tf
 from itertools import product
 
-# Load dataset
+# Load dataset.
 data = pd.read_csv('datasets/AMD_raw.csv')
 
 # Preprocess data
