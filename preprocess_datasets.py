@@ -4,7 +4,7 @@ import os
 path_datasets_raw = "./datasets_raw/"
 path_datasets_processed = "datasets/"
 
-# Ensure the processed datasets directory. 
+# Ensure the processed datasets Dir
 os.makedirs(path_datasets_processed, exist_ok=True)
 
 for filename in os.listdir(path_datasets_raw):
